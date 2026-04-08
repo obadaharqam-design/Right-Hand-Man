@@ -14,7 +14,7 @@ const https = require("https");
 // ============================================================
 const app = express();
 app.use(express.json());
-const PORT = process.env.PORT || 52304;
+port '52304;
 
 // Bot state tracking
 let botState = {
@@ -22,7 +22,7 @@ let botState = {
   lastActivity: Date.now(),
   reconnectAttempts: 0,
   startTime: Date.now(),
-  ip: [PVPOBADAH.aternos.me],
+  host: [PVPOBADAH.aternos.me],
   wasThrottled: false,
 };
 
